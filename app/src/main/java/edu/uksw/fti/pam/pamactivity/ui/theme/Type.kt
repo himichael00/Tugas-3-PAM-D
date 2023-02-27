@@ -27,14 +27,14 @@ val Pop = Typography(
     h1 = TextStyle(
         fontFamily = Poppins,
         fontWeight = FontWeight.W700,
-        fontSize = 12.sp,
+        fontSize = 18.sp,
         color = Color.White
     ),
     h2 = TextStyle(
         fontFamily = Poppins,
         fontWeight = FontWeight.W500,
         fontSize = 16.sp,
-        color = Color.White
+        color = Color.Black
     ),
     h3 = TextStyle(
         fontFamily = Poppins,
@@ -58,7 +58,25 @@ val Pop = Typography(
         fontFamily = Poppins,
         fontWeight = FontWeight.W500,
         fontSize = 12.sp,
+        color = Color.Black
+    ),
+    subtitle2 = TextStyle(
+        fontFamily = Poppins,
+        fontWeight = FontWeight.W500,
+        fontSize = 12.sp,
+        color = Color.Black
+    ),
+    body1 = TextStyle(
+        fontFamily = Poppins,
+        fontWeight = FontWeight.W500,
+        fontSize = 16.sp,
         color = Color.White
+    ),
+    body2 = TextStyle(
+        fontFamily = Poppins,
+        fontWeight = FontWeight.W500,
+        fontSize = 12.sp,
+        color = Color.LightGray
     ),
     /* Other default text styles to override
     button = TextStyle(
